@@ -175,7 +175,7 @@
             <Capability>1</Capability>
             <DriverSelection>4101</DriverSelection>
           </Flash1>
-          <bUseTDR>0</bUseTDR>
+          <bUseTDR>1</bUseTDR>
           <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
@@ -377,7 +377,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\HARDWARE\LED;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\RTC;..\HARDWARE\RTC;..\HARDWARE\WKUP;..\HARDWARE\ADC;..\HARDWARE\DAC;..\HARDWARE\DMA;..\HARDWARE\REMOTE;..\HARDWARE\NRF24L01;..\MALLOC;..\HARDWARE\SD;..\FATFS\exfuns;..\FATFS\src;..\USMART;..\FATFS\src\option;..\TEXT;..\PICTURE;..\HARDWARE\VS10XX;..\HARDWARE\AUDIOSEL;..\ATKDCR;..\APP;..\PYINPUT;..\USB\CONFIG;..\USB\LIB;..\HARDWARE\IIC;..\HARDWARE\MPU6050;..\HARDWARE\NRF24L01;..\HARDWARE\SPI</IncludePath>
+              <IncludePath>..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\STM32F10x_FWLib\inc;..\CORE;..\HARDWARE\KEY;..\HARDWARE\RTC;..\HARDWARE\WKUP;..\HARDWARE\ADC;..\HARDWARE\DAC;..\HARDWARE\DMA;..\HARDWARE\REMOTE;..\HARDWARE\NRF24L01;..\MALLOC;..\HARDWARE\SD;..\FATFS\exfuns;..\FATFS\src;..\USMART;..\FATFS\src\option;..\TEXT;..\PICTURE;..\HARDWARE\VS10XX;..\HARDWARE\AUDIOSEL;..\ATKDCR;..\APP;..\PYINPUT;..\USB\CONFIG;..\USB\LIB;..\HARDWARE\IIC;..\HARDWARE\MPU6050;..\HARDWARE\NRF24L01;..\HARDWARE\SPI</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -441,16 +441,6 @@
         <Group>
           <GroupName>HARDWARE</GroupName>
           <Files>
-            <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\LED\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>key.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\KEY\key.c</FilePath>
-            </File>
             <File>
               <FileName>I2C.c</FileName>
               <FileType>1</FileType>
